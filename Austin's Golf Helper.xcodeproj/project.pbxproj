@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		836E53012CC9E3C700EFBA58 /* GolfBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E53002CC9E3C700EFBA58 /* GolfBag.swift */; };
 		83A620002CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */; };
 		83A620022CC9D81500191D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A620012CC9D81500191D10 /* ContentView.swift */; };
 		83A620042CC9D81B00191D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A620032CC9D81B00191D10 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		836E53002CC9E3C700EFBA58 /* GolfBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfBag.swift; sourceTree = "<group>"; };
 		83A61FFC2CC9D81500191D10 /* Austin's Golf Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Austin's Golf Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austin_s_Golf_HelperApp.swift; sourceTree = "<group>"; };
 		83A620012CC9D81500191D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				83A620012CC9D81500191D10 /* ContentView.swift */,
 				83A620032CC9D81B00191D10 /* Assets.xcassets */,
 				83A620052CC9D81B00191D10 /* Preview Content */,
+				836E53002CC9E3C700EFBA58 /* GolfBag.swift */,
 			);
 			path = "Austin's Golf Helper";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A620022CC9D81500191D10 /* ContentView.swift in Sources */,
+				836E53012CC9E3C700EFBA58 /* GolfBag.swift in Sources */,
 				83A620002CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Austin's Golf Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = CWH2L73D3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Austin's Golf Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = CWH2L73D3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
