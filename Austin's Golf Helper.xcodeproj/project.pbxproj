@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A620002CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */; };
+		83A620022CC9D81500191D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A620012CC9D81500191D10 /* ContentView.swift */; };
+		83A620042CC9D81B00191D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A620032CC9D81B00191D10 /* Assets.xcassets */; };
+		83A620072CC9D81B00191D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A620062CC9D81B00191D10 /* Preview Assets.xcassets */; };
+		83A620112CC9D81C00191D10 /* Austin_s_Golf_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A620102CC9D81C00191D10 /* Austin_s_Golf_HelperTests.swift */; };
+		83A6201B2CC9D81C00191D10 /* Austin_s_Golf_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6201A2CC9D81C00191D10 /* Austin_s_Golf_HelperUITests.swift */; };
+		83A6201D2CC9D81C00191D10 /* Austin_s_Golf_HelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6201C2CC9D81C00191D10 /* Austin_s_Golf_HelperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A6200D2CC9D81C00191D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A61FF42CC9D81500191D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A61FFB2CC9D81500191D10;
+			remoteInfo = "Austin's Golf Helper";
+		};
+		83A620172CC9D81C00191D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A61FF42CC9D81500191D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A61FFB2CC9D81500191D10;
+			remoteInfo = "Austin's Golf Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83A61FFC2CC9D81500191D10 /* Austin's Golf Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Austin's Golf Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austin_s_Golf_HelperApp.swift; sourceTree = "<group>"; };
+		83A620012CC9D81500191D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83A620032CC9D81B00191D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A620062CC9D81B00191D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83A6200C2CC9D81C00191D10 /* Austin's Golf HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Austin's Golf HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A620102CC9D81C00191D10 /* Austin_s_Golf_HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austin_s_Golf_HelperTests.swift; sourceTree = "<group>"; };
+		83A620162CC9D81C00191D10 /* Austin's Golf HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Austin's Golf HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A6201A2CC9D81C00191D10 /* Austin_s_Golf_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austin_s_Golf_HelperUITests.swift; sourceTree = "<group>"; };
+		83A6201C2CC9D81C00191D10 /* Austin_s_Golf_HelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austin_s_Golf_HelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A61FF92CC9D81500191D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A620092CC9D81C00191D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A620132CC9D81C00191D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A61FF32CC9D81500191D10 = {
+			isa = PBXGroup;
+			children = (
+				83A61FFE2CC9D81500191D10 /* Austin's Golf Helper */,
+				83A6200F2CC9D81C00191D10 /* Austin's Golf HelperTests */,
+				83A620192CC9D81C00191D10 /* Austin's Golf HelperUITests */,
+				83A61FFD2CC9D81500191D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A61FFD2CC9D81500191D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A61FFC2CC9D81500191D10 /* Austin's Golf Helper.app */,
+				83A6200C2CC9D81C00191D10 /* Austin's Golf HelperTests.xctest */,
+				83A620162CC9D81C00191D10 /* Austin's Golf HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A61FFE2CC9D81500191D10 /* Austin's Golf Helper */ = {
+			isa = PBXGroup;
+			children = (
+				83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */,
+				83A620012CC9D81500191D10 /* ContentView.swift */,
+				83A620032CC9D81B00191D10 /* Assets.xcassets */,
+				83A620052CC9D81B00191D10 /* Preview Content */,
+			);
+			path = "Austin's Golf Helper";
+			sourceTree = "<group>";
+		};
+		83A620052CC9D81B00191D10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83A620062CC9D81B00191D10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83A6200F2CC9D81C00191D10 /* Austin's Golf HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A620102CC9D81C00191D10 /* Austin_s_Golf_HelperTests.swift */,
+			);
+			path = "Austin's Golf HelperTests";
+			sourceTree = "<group>";
+		};
+		83A620192CC9D81C00191D10 /* Austin's Golf HelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83A6201A2CC9D81C00191D10 /* Austin_s_Golf_HelperUITests.swift */,
+				83A6201C2CC9D81C00191D10 /* Austin_s_Golf_HelperUITestsLaunchTests.swift */,
+			);
+			path = "Austin's Golf HelperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A61FFB2CC9D81500191D10 /* Austin's Golf Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A620202CC9D81C00191D10 /* Build configuration list for PBXNativeTarget "Austin's Golf Helper" */;
+			buildPhases = (
+				83A61FF82CC9D81500191D10 /* Sources */,
+				83A61FF92CC9D81500191D10 /* Frameworks */,
+				83A61FFA2CC9D81500191D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Austin's Golf Helper";
+			productName = "Austin's Golf Helper";
+			productReference = 83A61FFC2CC9D81500191D10 /* Austin's Golf Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A6200B2CC9D81C00191D10 /* Austin's Golf HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A620232CC9D81C00191D10 /* Build configuration list for PBXNativeTarget "Austin's Golf HelperTests" */;
+			buildPhases = (
+				83A620082CC9D81C00191D10 /* Sources */,
+				83A620092CC9D81C00191D10 /* Frameworks */,
+				83A6200A2CC9D81C00191D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A6200E2CC9D81C00191D10 /* PBXTargetDependency */,
+			);
+			name = "Austin's Golf HelperTests";
+			productName = "Austin's Golf HelperTests";
+			productReference = 83A6200C2CC9D81C00191D10 /* Austin's Golf HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83A620152CC9D81C00191D10 /* Austin's Golf HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A620262CC9D81C00191D10 /* Build configuration list for PBXNativeTarget "Austin's Golf HelperUITests" */;
+			buildPhases = (
+				83A620122CC9D81C00191D10 /* Sources */,
+				83A620132CC9D81C00191D10 /* Frameworks */,
+				83A620142CC9D81C00191D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A620182CC9D81C00191D10 /* PBXTargetDependency */,
+			);
+			name = "Austin's Golf HelperUITests";
+			productName = "Austin's Golf HelperUITests";
+			productReference = 83A620162CC9D81C00191D10 /* Austin's Golf HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A61FF42CC9D81500191D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					83A61FFB2CC9D81500191D10 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					83A6200B2CC9D81C00191D10 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 83A61FFB2CC9D81500191D10;
+					};
+					83A620152CC9D81C00191D10 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 83A61FFB2CC9D81500191D10;
+					};
+				};
+			};
+			buildConfigurationList = 83A61FF72CC9D81500191D10 /* Build configuration list for PBXProject "Austin's Golf Helper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A61FF32CC9D81500191D10;
+			productRefGroup = 83A61FFD2CC9D81500191D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A61FFB2CC9D81500191D10 /* Austin's Golf Helper */,
+				83A6200B2CC9D81C00191D10 /* Austin's Golf HelperTests */,
+				83A620152CC9D81C00191D10 /* Austin's Golf HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A61FFA2CC9D81500191D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A620072CC9D81B00191D10 /* Preview Assets.xcassets in Resources */,
+				83A620042CC9D81B00191D10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6200A2CC9D81C00191D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A620142CC9D81C00191D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A61FF82CC9D81500191D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A620022CC9D81500191D10 /* ContentView.swift in Sources */,
+				83A620002CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A620082CC9D81C00191D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A620112CC9D81C00191D10 /* Austin_s_Golf_HelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A620122CC9D81C00191D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6201D2CC9D81C00191D10 /* Austin_s_Golf_HelperUITestsLaunchTests.swift in Sources */,
+				83A6201B2CC9D81C00191D10 /* Austin_s_Golf_HelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A6200E2CC9D81C00191D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A61FFB2CC9D81500191D10 /* Austin's Golf Helper */;
+			targetProxy = 83A6200D2CC9D81C00191D10 /* PBXContainerItemProxy */;
+		};
+		83A620182CC9D81C00191D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A61FFB2CC9D81500191D10 /* Austin's Golf Helper */;
+			targetProxy = 83A620172CC9D81C00191D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83A6201E2CC9D81C00191D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83A6201F2CC9D81C00191D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A620212CC9D81C00191D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Austin's Golf Helper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austin.austinsgolfhelper.Austin-s-Golf-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A620222CC9D81C00191D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Austin's Golf Helper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austin.austinsgolfhelper.Austin-s-Golf-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83A620242CC9D81C00191D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austin.austinsgolfhelper.Austin-s-Golf-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Austin's Golf Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Austin's Golf Helper";
+			};
+			name = Debug;
+		};
+		83A620252CC9D81C00191D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austin.austinsgolfhelper.Austin-s-Golf-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Austin's Golf Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Austin's Golf Helper";
+			};
+			name = Release;
+		};
+		83A620272CC9D81C00191D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austin.austinsgolfhelper.Austin-s-Golf-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Austin's Golf Helper";
+			};
+			name = Debug;
+		};
+		83A620282CC9D81C00191D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austin.austinsgolfhelper.Austin-s-Golf-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Austin's Golf Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A61FF72CC9D81500191D10 /* Build configuration list for PBXProject "Austin's Golf Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A6201E2CC9D81C00191D10 /* Debug */,
+				83A6201F2CC9D81C00191D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A620202CC9D81C00191D10 /* Build configuration list for PBXNativeTarget "Austin's Golf Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A620212CC9D81C00191D10 /* Debug */,
+				83A620222CC9D81C00191D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A620232CC9D81C00191D10 /* Build configuration list for PBXNativeTarget "Austin's Golf HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A620242CC9D81C00191D10 /* Debug */,
+				83A620252CC9D81C00191D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A620262CC9D81C00191D10 /* Build configuration list for PBXNativeTarget "Austin's Golf HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A620272CC9D81C00191D10 /* Debug */,
+				83A620282CC9D81C00191D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A61FF42CC9D81500191D10 /* Project object */;
+}
