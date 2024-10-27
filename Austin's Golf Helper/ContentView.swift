@@ -12,12 +12,16 @@ struct ContentView: View {
     @State private var golfBag = GolfBag()
     @State private var newClubName = ""
     @State private var newClubDistance: String = ""
-    @State private var selectedClub = "Driver"
+    @State private var selectedClub = ""
     
-    let clubOptions = ["Driver","3 Wood", "5 Wood", "7 Wood", "2 Hybrid","3 Hybrid","4 Hybrid","5 Hybrid","6 Hybrid","1 Iron","2 Iron","3 Iron","4 Iron","5 Iron","6 Iron","7 Iron","8 Iron","9 Iron","PW","AW","SW","LW","48° W", "50° W","52° W","54° W", "56° W","58° W", "60° W", "62° W"]
+    let clubOptions = ["","Driver","3 Wood", "5 Wood", "7 Wood", "2 Hybrid","3 Hybrid","4 Hybrid","5 Hybrid","6 Hybrid","1 Iron","2 Iron","3 Iron","4 Iron","5 Iron","6 Iron","7 Iron","8 Iron","9 Iron","PW","AW","SW","LW","48° W", "50° W","52° W","54° W", "56° W","58° W", "60° W", "62° W"]
 
     init() {
         print("ContentView initialized")
+    }
+    
+    private var isButtonDisabled: Bool {
+        selectedClub.isEmpty || newClubDistance.isEmpty
     }
     
     var body: some View {
@@ -28,9 +32,7 @@ struct ContentView: View {
                     ForEach(golfBag.clubs) { club in
                         HStack {
                             Text(club.name)
-                            if let loft = club.loft {
-                                Text("Loft: \(loft, specifier: "%.1f")°")
-                            }
+                            Text("Distance: \(club.distance, specifier: "%.1f") yards")
                         }
                     }
                     .onDelete(perform: deleteClub)
@@ -43,16 +45,14 @@ struct ContentView: View {
                         //                    TextField("Club Name", text: $newClubName)
                         //                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         //                        .padding()
-                        Text("Select Club")
-                            .font(.headline)
-                            .padding()
                         
                         Picker("Club", selection: $selectedClub) {
                             ForEach(clubOptions, id: \.self) { club in
-                                Text(club)
+                                Text(club == "" ? "Select Club" : club)
                             }
                         }
-                        .pickerStyle(WheelPickerStyle())
+                        .pickerStyle(MenuPickerStyle())
+                        .padding()
                         
                         
                         TextField("Dist. (Yds)", text: $newClubDistance)
@@ -65,13 +65,13 @@ struct ContentView: View {
                             Text("Add Club")
                                 .font(.headline)
                                 .frame(maxWidth: .infinity )
-                                .background(Color.blue)
-                                .foregroundColor(.white)
+                                .frame(maxHeight: 80)
+                                .background(isButtonDisabled ? Color.gray : Color.blue)
+                                .foregroundColor(isButtonDisabled ? Color.white.opacity(0.5) : Color.white)
                                 .cornerRadius(8)
-                                .padding(.horizontal)
                                 .padding()
                         }
-                        .disabled(newClubName.isEmpty || Double(newClubDistance) == nil)
+                        .disabled(isButtonDisabled)
                     
                 }
                 .navigationTitle("Golf Bag")
@@ -91,16 +91,17 @@ struct ContentView: View {
     private func addClub() {
         guard !newClubName.isEmpty else { return }
         
-        // Convert loft to Double and check for a valid value
-        if let loftValue = Double(newClubDistance) {
-            golfBag.addClub(name: newClubName, loft: loftValue) // Add the new club
-            print("Added club: \(newClubName), Loft: \(newClubDistance)") // Print added club details
+        // Convert distance to Double and check for a valid value
+        if let distanceValue = Double(newClubDistance) {
+            golfBag.addClub(name: newClubName, distance: distanceValue) // Add the new club
+            print("Added club: \(newClubName), Distance: \(newClubDistance)") // Print added club details
         } else {
-            print("Invalid loft value: \(newClubDistance)") // Print error message for invalid loft
+            print("Invalid distance value: \(newClubDistance)") // Print error message for invalid distance
         }
         
         newClubName = "" // Clear the text field
-        newClubDistance = "" // Clear the loft text field
+        newClubDistance = "" // Clear the distance text field
+        selectedClub = "" // Clear selected club
 
     }
 
