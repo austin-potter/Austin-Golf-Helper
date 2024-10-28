@@ -11,7 +11,7 @@ import SwiftUI
 struct Austin_s_Golf_HelperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }

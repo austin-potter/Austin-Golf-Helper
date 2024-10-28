@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833619EA2CCF1A9E00E9A8ED /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833619E92CCF1A9E00E9A8ED /* LandingView.swift */; };
 		836E53012CC9E3C700EFBA58 /* GolfBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E53002CC9E3C700EFBA58 /* GolfBag.swift */; };
 		83A620002CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */; };
 		83A620022CC9D81500191D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A620012CC9D81500191D10 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		833619E92CCF1A9E00E9A8ED /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		836E53002CC9E3C700EFBA58 /* GolfBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfBag.swift; sourceTree = "<group>"; };
 		83A61FFC2CC9D81500191D10 /* Austin's Golf Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Austin's Golf Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A61FFF2CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austin_s_Golf_HelperApp.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				83A620032CC9D81B00191D10 /* Assets.xcassets */,
 				83A620052CC9D81B00191D10 /* Preview Content */,
 				836E53002CC9E3C700EFBA58 /* GolfBag.swift */,
+				833619E92CCF1A9E00E9A8ED /* LandingView.swift */,
 			);
 			path = "Austin's Golf Helper";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833619EA2CCF1A9E00E9A8ED /* LandingView.swift in Sources */,
 				83A620022CC9D81500191D10 /* ContentView.swift in Sources */,
 				836E53012CC9E3C700EFBA58 /* GolfBag.swift in Sources */,
 				83A620002CC9D81500191D10 /* Austin_s_Golf_HelperApp.swift in Sources */,

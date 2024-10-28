@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // Create a GolfBag instance
-    @State private var golfBag = GolfBag()
+    @State private var golfBag = GolfBag.load()
     @State private var newClubName = ""
     @State private var newClubDistance: String = ""
     @State private var selectedClub = ""
@@ -32,7 +32,7 @@ struct ContentView: View {
                     ForEach(golfBag.clubs) { club in
                         HStack {
                             Text(club.name)
-                            Text("Distance: \(club.distance, specifier: "%.1f") yards")
+                            Text("Distance: \(club.distance, specifier: "%.0f") yards")
                         }
                     }
                     .onDelete(perform: deleteClub)
@@ -89,12 +89,15 @@ struct ContentView: View {
     }
     // Function to add a new club to the bag
     private func addClub() {
-        guard !newClubName.isEmpty else { return }
+        print("Button press")
+        print(selectedClub)
+        guard !selectedClub.isEmpty else { return }
         
         // Convert distance to Double and check for a valid value
         if let distanceValue = Double(newClubDistance) {
-            golfBag.addClub(name: newClubName, distance: distanceValue) // Add the new club
-            print("Added club: \(newClubName), Distance: \(newClubDistance)") // Print added club details
+            golfBag.addClub(name: selectedClub, distance: distanceValue) // Add the new club
+            golfBag.save()
+            print("Added club: \(selectedClub), Distance: \(newClubDistance)") // Print added club details
         } else {
             print("Invalid distance value: \(newClubDistance)") // Print error message for invalid distance
         }
@@ -108,6 +111,7 @@ struct ContentView: View {
     // Function to delete a club
     private func deleteClub(at offsets: IndexSet) {
         golfBag.clubs.remove(atOffsets: offsets)
+        golfBag.save()
     }
 }
 
